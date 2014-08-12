@@ -1,0 +1,24 @@
+{
+    "name": "rabbit/doc",
+    "description": "",
+    "authors": [
+        {
+            "name": "Yuom Theara",
+            "email": "yuom.theara@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers"
+        ],
+        "psr-0": {
+            "Rabbit\\Doc\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

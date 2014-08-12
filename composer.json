@@ -1,0 +1,49 @@
+{
+    "name": "laravel/laravel",
+    "description": "The Laravel Framework.",
+    "keywords": ["framework", "laravel"],
+    "license": "MIT",
+    "require": {
+        "laravel/framework": "4.2.*",
+        "rtablada/package-installer": "dev-master",
+        "barryvdh/laravel-ide-helper": "1.*",
+        "chumper/datatable": "2.*",
+        "anahkiasen/former": "dev-master",
+        "edvinaskrucas/notification": "3.*",
+        "davejamesmiller/laravel-breadcrumbs": "~2.2.1",
+        "fadion/validator-assistant": "dev-master",
+        "fadion/rule": "dev-master",
+        "maatwebsite/excel": "1.*",
+        "anahkiasen/underscore-php": "dev-master",
+        "laracasts/presenter": "0.1.*",
+        "mccool/database-backup": "1.0.1",
+        "maxxscho/laravel-markdown-plus": "~0"
+    },
+    "autoload": {
+        "classmap": [
+            "app/commands",
+            "app/controllers",
+            "app/models",
+            "app/database/migrations",
+            "app/database/seeds",
+            "app/tests/TestCase.php"
+        ]
+    },
+    "scripts": {
+        "post-install-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ],
+        "post-update-cmd": [
+            "php artisan clear-compiled",
+            "php artisan optimize"
+        ],
+        "post-create-project-cmd": [
+            "php artisan key:generate"
+        ]
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "minimum-stability": "stable"
+}

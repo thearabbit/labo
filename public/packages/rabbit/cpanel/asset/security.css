@@ -1,0 +1,27 @@
+/* Content */
+div.security-width {
+    width: 555px;
+}
+
+.security-header-info {
+    background-color: #357ebd;
+    color: #ffffff;
+    text-align: center;
+}
+
+.security-header-error {
+    background-color: #d2322d;
+    color: #ffffff;
+    text-align: center;
+}
+
+.security-content {
+    font-size: 18px;
+}
+
+.security-msg-success{
+    color: #357ebd;
+}
+.security-msg-error{
+    color: #d2322d;
+}

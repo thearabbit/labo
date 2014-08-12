@@ -1,0 +1,25 @@
+{
+    "name": "rabbit/cpanel",
+    "description": "",
+    "authors": [
+        {
+            "name": "Yuom Theara",
+            "email": "yuom.theara@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/controllers",
+            "src/models"
+        ],
+        "psr-0": {
+            "Rabbit\\Cpanel\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

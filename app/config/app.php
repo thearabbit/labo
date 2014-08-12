@@ -144,6 +144,8 @@ return array(
         'McCool\DatabaseBackup\ServiceProviders\LaravelServiceProvider',
         // Markdown
         'Maxxscho\LaravelMarkdownPlus\LaravelMarkdownPlusServiceProvider',
+        // User Agent
+        'Jenssegers\Agent\AgentServiceProvider',
 
         // Workbench
         'Rabbit\Cpanel\CpanelServiceProvider',
@@ -242,6 +244,8 @@ return array(
         'Excel' => 'Maatwebsite\Excel\Facades\Excel',
         // Markdown
         'MarkdownPlus' => 'Maxxscho\LaravelMarkdownPlus\Facade\LaravelMarkdownPlusFacade',
+        // User Agent
+        'Agent' => 'Jenssegers\Agent\Facades\Agent',
 
         // Cpanel
         'EmptyClass' => 'Rabbit\Cpanel\Libraries\EmptyClass',

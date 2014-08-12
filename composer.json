@@ -17,7 +17,8 @@
         "anahkiasen/underscore-php": "dev-master",
         "laracasts/presenter": "0.1.*",
         "mccool/database-backup": "1.0.1",
-        "maxxscho/laravel-markdown-plus": "~0"
+        "maxxscho/laravel-markdown-plus": "~0",
+		"jenssegers/agent": "*"
     },
     "autoload": {
         "classmap": [
